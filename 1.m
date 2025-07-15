@@ -61,7 +61,7 @@ czas_kor=(czas(4829:5363));
 lag_samples = lags(idx_max);           % przesunięcie w próbkach
 lag_seconds = lag_samples / fs;        % przesunięcie w sekundach
 
-% Wyświetl wynik
+% Wyświetl wynik 
 fprintf('Maksymalna korelacja przy przesunięciu: %d próbek (%.4f s)\n', lag_samples, lag_seconds);
 
 % Wykres korelacji
